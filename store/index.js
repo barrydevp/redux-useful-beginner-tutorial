@@ -1,4 +1,4 @@
-import { createStoreFul } from "redux-useful";
+import { createStoreFul } from "../build/index";
 import counterModel from "./counterModel.js";
 
 const models = { counter: counterModel };

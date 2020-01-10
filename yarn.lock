@@ -3548,15 +3548,17 @@ redux-saga@^1.1.3:
   dependencies:
     "@redux-saga/core" "^1.1.3"
 
-redux-useful@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/redux-useful/-/redux-useful-1.0.2.tgz#2d711024ea6f0989dee3a3548d7040bdc70627e4"
-  integrity sha512-XQeRGGXJhNG4LKdYtRSMlM+yavGUUHjfVIA71lGvlwg8UuYHgZD23mL9HO9rLKSCNTFkaEAxPtLjZcXdcFSlWw==
+redux-useful@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/redux-useful/-/redux-useful-1.0.6.tgz#8e8b3f7c5ad75a4764e8f8d68178c7608a4322fc"
+  integrity sha512-JQpIgxLI+3AKoGrEG7f1UobeYvp9eynEA+P65Ss75UCHTv9HYQRp+y+1E1lv96tbqnFwRTjp0zcWYgt44jr6Bg==
   dependencies:
+    invariant "^2.2.4"
     lodash "^4.17.15"
     redux "^4.0.5"
     redux-persist "^6.0.0"
     redux-saga "^1.1.3"
+    warning "^4.0.3"
 
 redux@^4.0.4, redux@^4.0.5:
   version "4.0.5"
@@ -4422,6 +4424,13 @@ vm-browserify@~0.0.1:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchify-middleware@^1.6.0:
   version "1.8.2"
